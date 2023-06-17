@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    /* theme colors */
+    --darkblue: #14279B;
+    --bluegray: #3D56B2;
+    --blue: #5C7AEA;
+    --grey: #E6E6E6;
+    --white: #FFFFFF;
+    /* theme font-family */
+    --Poppin: 'Poppins', sans-serif;
+}
+
+.nav {
+    background: black;
+    opacity: 80%;
+    min-height: 10vh;
+    overflow: visible;
+    transition: height 1s ease-in-out;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-menu{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.nav-menu a{
+    font-family: var(--Poppin);
+    font-size:large;
+    padding: 0.3cm;
+    color: white;
+}
+
+.nav-Search{
+    font-family: var(--Poppin);
+    background-color: black;
+    width: 100px;
+    height: 25px;
+    top: 25px;
+    right: 20px;
+    position: absolute;
+    border-width: 10pt;
+    border-radius: 10pt;
+    color: white;
+  
+}
+
+.nav-Search P{
+    position: absolute;
+    font-size: large;
+    top: -20px;
+    left: 30px;
+
+}
+
+.nav-Search i{
+    position: absolute;
+    top: 5px;
+    right: 75px;
+}
+
+.Shop-Now p{
+    left: 7px;
+    font-family: var(--Poppin);
+    position: absolute;
+    top: -14px;
+    background-color: none;
+}
+
+.Shop-Now{
+    border-radius: 15px;
+    border: 2px solid white;
+    position: absolute;
+    color: white;
+    top: 15.6cm;
+    right: 8cm;
+    width: 120px;
+    height: 30px;
+    background-color: none;
+    
+}
+
+.Shop-Now i{
+    position: absolute;
+    top: 6px;
+    right: 7px;
+}
+
+.About-Us h2{
+    top: 25cm;
+    font-family: var(--Poppin);
+    position: absolute;
+    left: 10cm;
+}
+
+.Spt{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 29cm;
+    left: 5cm;
+}
+ 
+.deskripsi{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    top: 27cm;
+    right: 3cm;
+    font-family: var(--Poppin);
+    font-size: larger;
+}
+
+.kiri{
+    position: absolute;
+    top: 44cm;
+    left: 2cm;
+    font-size: larger;
+    width: 30%;
+    height: 30%;
+    font-family: var(--Poppin);
+}
+
+.kanan{
+    position: absolute;
+    top: 44cm;
+    right: 2cm;
+    font-size: larger;
+    width: 30%;
+    height: larger;
+    font-family: var(--Poppin);
+    
+}
