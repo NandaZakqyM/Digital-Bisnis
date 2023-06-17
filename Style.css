@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root {
-    /* theme colors */
     --darkblue: #14279B;
     --bluegray: #3D56B2;
     --blue: #5C7AEA;
     --grey: #E6E6E6;
     --white: #FFFFFF;
-    /* theme font-family */
     --Poppin: 'Poppins', sans-serif;
 }
 
@@ -64,34 +62,31 @@
     right: 75px;
 }
 
+.Shop-Now{
+    border: 1px solid white;
+    border-radius: 15px;
+    position: absolute;
+    top: 18.4cm;
+    right: 10.2cm;
+    width: 120px;
+    height: 30px;
+}
 .Shop-Now p{
+    color: white;
     left: 7px;
     font-family: var(--Poppin);
     position: absolute;
     top: -14px;
-    background-color: none;
-}
-
-.Shop-Now{
-    border-radius: 15px;
-    border: 2px solid white;
-    position: absolute;
-    color: white;
-    top: 15.6cm;
-    right: 8cm;
-    width: 120px;
-    height: 30px;
-    background-color: none;
-    
 }
 
 .Shop-Now i{
+    color: white;
     position: absolute;
     top: 6px;
     right: 7px;
 }
 
-.About-Us h2{
+.About-Us h1{
     top: 25cm;
     font-family: var(--Poppin);
     position: absolute;
@@ -105,34 +100,270 @@
     top: 29cm;
     left: 5cm;
 }
- 
-.deskripsi{
+
+.Excercise{
     position: absolute;
     width: 30%;
     height: 50%;
-    top: 27cm;
+    top: 29cm;
     right: 3cm;
     font-family: var(--Poppin);
     font-size: larger;
 }
 
-.kiri{
-    position: absolute;
-    top: 44cm;
+.kiri {
+    top: 50cm;
     left: 2cm;
-    font-size: larger;
+    font-family: var(--Poppin);
+    position: absolute;
     width: 30%;
     height: 30%;
-    font-family: var(--Poppin);
 }
 
 .kanan{
-    position: absolute;
-    top: 44cm;
+    top: 50cm;
     right: 2cm;
-    font-size: larger;
-    width: 30%;
-    height: larger;
     font-family: var(--Poppin);
-    
+    position: absolute;
+    width: 30%;
+    height: 30%;
 }
+
+.address {
+    width: 100% ;
+    padding: 0%;
+}
+
+ .maps {
+    margin-left : 10px;
+    margin-top: -570px;
+ }
+
+ .Products-item{
+    width: 100%;
+    height: 100%;
+ }
+
+ .item-Atas{
+    width: 1000px;
+    height: 480px;
+    margin-top: 30px;
+    margin-left: 280px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+ }
+
+ .Atas-1{
+    margin-top: 30px;
+    margin-left: 75px;
+    width: 250px;
+    height: 420px;
+    background-color: white;
+    box-shadow: 6px 6px rgb(180, 179, 179);
+ }
+
+ .Atas-2{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 250px;
+    height: 420px;
+    background-color: white;
+    box-shadow: 6px 6px rgb(180, 179, 179);
+ }
+
+ .Atas-3{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 250px;
+    height: 420px;
+    background-color: white;
+    box-shadow: 6px 6px rgb(180, 179, 179);
+ }
+
+ .item-Bawah{
+    width: 1000px;
+    height: 480px;
+    margin-top: 50px;
+    margin-left: 280px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+ }
+
+ .Bawah-1{
+    margin-top: 30px;
+    margin-left: 75px;
+    width: 250px;
+    height: 420px;
+    background-color: white;
+    box-shadow: 6px 6px rgb(180, 179, 179);
+ }
+
+ .Bawah-2{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 250px;
+    height: 420px;
+    background-color: white;
+    box-shadow: 6px 6px rgb(180, 179, 179);
+ }
+
+ .Bawah-3{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 250px;
+    height: 420px;
+    background-color: white;
+    box-shadow: 6px 6px rgb(180, 179, 179);
+ }
+
+ .Atas-1 .teks-1 .judul{
+    margin-top: 8px;
+    font-family: var(--Poppin);
+    font-size: medium;
+    font-weight: bolder;
+ }
+
+ .Atas-1 .teks-1 .desc{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-family: var(--Poppin);
+    font-size: smaller;
+    color: gray;
+ }
+
+ .Atas-1 .teks-1 .price{
+    text-align: left;
+    margin-top: -4px;
+    margin-left: 20px;
+    font-family: var(--Poppin);
+    font-size: medium;
+    font-weight: bolder;
+ }
+
+ .Atas-2 .teks-2 .judul{
+    margin-top: 8px;
+    font-family: var(--Poppin);
+    font-size: medium;
+    font-weight: bolder;
+ }
+
+ .Atas-2 .teks-2 .desc{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-family: var(--Poppin);
+    font-size: smaller;
+    color: gray;
+ }
+
+ .Atas-2 .teks-2 .price{
+    text-align: left;
+    margin-top: 28px;
+    margin-left: 20px;
+    font-family: var(--Poppin);
+    font-size: medium;
+    font-weight: bolder;
+ }
+
+ .Atas-3 .teks-3 .judul{
+    margin-top: 8px;
+    font-family: var(--Poppin);
+    font-size: medium;
+    font-weight: bolder;
+ }
+
+ .Atas-3 .teks-3 .desc{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-family: var(--Poppin);
+    font-size: smaller;
+    color: gray;
+ }
+
+ .Atas-3 .teks-3 .price{
+    text-align: left;
+    margin-top: 28px;
+    margin-left: 20px;
+    font-family: var(--Poppin);
+    font-size: medium;
+    font-weight: bolder;
+ }
+
+ .Bawah-1 .teks-1 .judul{
+    margin-top: 8px;
+    font-family: var(--Poppin);
+    font-size: medium;
+    font-weight: bolder;
+ }
+
+ .Bawah-1 .teks-1 .desc{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-family: var(--Poppin);
+    font-size: smaller;
+    color: gray;
+ }
+
+ .Bawah-1 .teks-1 .price{
+    text-align: left;
+    margin-top: 28px;
+    margin-left: 20px;
+    font-family: var(--Poppin);
+    font-size: medium;
+    font-weight: bolder;
+ }
+ 
+ .Bawah-2 .teks-2 .judul{
+    margin-top: 8px;
+    font-family: var(--Poppin);
+    font-size: medium;
+    font-weight: bolder;
+ }
+
+ .Bawah-2 .teks-2 .desc{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-family: var(--Poppin);
+    font-size: smaller;
+    color: gray;
+ }
+
+ .Bawah-2 .teks-2 .price{
+    text-align: left;
+    margin-top: 28px;
+    margin-left: 20px;
+    font-family: var(--Poppin);
+    font-size: medium;
+    font-weight: bolder;
+ }
+
+ .Bawah-3 .teks-3 .judul{
+    margin-top: 8px;
+    font-family: var(--Poppin);
+    font-size: medium;
+    font-weight: bolder;
+ }
+
+ .Bawah-3 .teks-3 .desc{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-family: var(--Poppin);
+    font-size: smaller;
+    color: gray;
+ }
+
+ .Bawah-3 .teks-3 .price{
+    text-align: left;
+    margin-top: -5px;
+    margin-left: 20px;
+    font-family: var(--Poppin);
+    font-size: medium;
+    font-weight: bolder;
+ }
